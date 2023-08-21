@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oldrick Weenink | Portfolio</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">Portfolio</span></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a>About me</a></li>
+                    <li><a>Vocabulary App</a></li>
+                    <li><a>Weather App</a></li>
+                    <li><a>Time tracker</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="about">
+        <div class="container flex">
+            <img src="static/profiel.png" height="250px">
+            <div id="about_text">
+                <h1>About</h1>
+                <p>I’m a software developer with a love for business logic and backend programming. Ever since the first introductory course I was hooked. It’s a great and enjoyable combination between problem solving and creating something that can help others.
+                My preferred languages are Java and C# for their robustness, but I also have ample experience in Python, JavaScript/TypeScript, Kotlin and C. </p>
+            </div>
+            
+        </div>
+    </section>  
+    <section id="vocabulary_builder" class="app_display">
+        <div class="container">
+            <h1>Vocabulary builder</h1>
+            <p>Android app writtin in Java and Kotlin since most of the info available about the used libraries was written in the latter. In this project, I combined my love for languages with programming and made a tool that I was missing. A vocabulary builder that stores the words of your personal vocabulary in a given language that helps you to detect new words and helps you practice them. It uses a google library < name here > that let’s you scan word from your phone, and the logic determines the words that are still unknown to you. This way, a reader can scan a page of a book, practice all the words he or she doesn’t know, and then read the page without having to interrupt the reading to look the word up each time. Still under development</p>
+        </div>
+    </section> 
+    <section id="weather_app" class="app_display">
+        <div class="container">
+            <h1>Weather app</h1>
+            <p>Android app that uses REST-API calls to collect weather information and visualizes the data in a nice graph for the next 7 days. This app was made primarily	to practice more with REST-API’s, data extraction and data visualization. Once again MPAndroidChart was used as the visualization library. 
+                Written in Java. 
+                </p>
+        </div>
+    </section> 
+    <section id="time_tracker" class="app_display">
+        <div class="container">
+            <h1>Time Tracker</h1>
+            <p>This Android app, written in Java, was written both to practice with mobile development, as well as for personal use to track the time I actually spend on programming. It has a simple and easy to use UI, which let’s the user track the time spend on a given activity. The data is stored in a Sqlite3 database, and is visualized in a bar chart that’s made with MPAndroidChart. </p>
+        </div>
+    </section> 
+    <section id="tic_tac_toe" class="app_display">
+        <div class="container">
+            <h1>Tic Tac Toe</h1>
+            <p>I made this GUI application with Java to get a better feeling for software design and MVC in particular. Earlier, I made an attempt to implement chess but since it’s a more complex game, I opted to use Tic Tac Toe since I could concentrate more on the architecture. JFrame/Swing was used for the GUI.
+                </p>
+        </div>
+    </section>
+    <section id="web_scraper" class="app_display">
+        <div class="container">
+            <h1>Selenium Web Scraper</h1>
+            <p>I had been asked to contact candidates for a certain position, but the portal I had to work with had limited options for filtering etc., so a webscraper was made with Python to collect the data. Initially the Beautiful Soup library was used, but after I encountered some access issues, Selenium seemed to be the better option. The data was collected, filtered, and some automation was used for sending out emails. 
+                No video for privacy reasons. 
+                </p>
+        </div>
+    </section> 
+    <section id="cutting_list_optimization" class="app_display">
+        <div class="container">
+            <h1>Cutting List Optimization</h1>
+            <iframe width="910" height="512" src="https://www.youtube.com/embed/JR5E4wMIkuw" title="Cutting List Optimization with Dynamic Programming | Python, Tkinter, OpenCV" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <p>As part of my thesis, I developed a tool to calculate the optimal way to cut wooden boards for a given list of dimensions and quality categories. This problem, which is a variation of the classic Knapsack Problem, was solved with Dynamic Programming. The program was written in Python and Tkinter was used as a GUI tool to visualize the results. </p>
+        </div>
+    </section> 
+    <section id="language_app" class="app_display">
+        <div class="container">
+            <h1>languageSocial Network</h1>
+            <iframe width="900" height="506" src="https://www.youtube.com/embed/owa58dUDhIM" title="CS50 2021 Final Project | Lingua: Language Exchange WebApp" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <p>First web application I made as part of the final project of the Harvard MOOC “CS50 | Introduction to Computer Science”. Python with Flask was used for the back-end, and the front-end was done with vanilla JS/HTML/CSS. The data persistence was carried out with sqlite3 to write to local storage. The “real-time” chat feature was implemented with AJAX. 
+                Unfortunately, the source code got lost. 
+                </p>
+        </div>
+    </section> 
+    <footer>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, aliquam.</p>
+    </footer>
+</body>
+</html>
