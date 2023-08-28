@@ -149,6 +149,7 @@ footer {
     position: relative;
     padding-bottom: 56.25%; /* 16:9 aspect ratio (height / width * 100%) */
     overflow: hidden;
+    max-height: 100vh;
 }
 
 .video-container iframe {
